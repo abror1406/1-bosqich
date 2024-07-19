@@ -30,7 +30,7 @@ function omadliChipta() {
         console.log("NO");
     }
 }
-omadliChipta(123321)
+omadliChipta()
 console.log(randomChipta);
 console.log(birinchiUchlik);
 console.log(ikkinchiUchlik);
