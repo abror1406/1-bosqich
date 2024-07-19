@@ -31,6 +31,3 @@ function omadliChipta() {
     }
 }
 omadliChipta()
-console.log(randomChipta);
-console.log(birinchiUchlik);
-console.log(ikkinchiUchlik);
