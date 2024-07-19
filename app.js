@@ -1,14 +1,14 @@
 // 1:
 
-let n = 5;
-let m = 8;
+let n = 7;
+let m = 5;
 
-let count = 0;
+let ordaklar = 0;
 
 function ordaklarSoni() {
     if(m % 2 === 0) {
-        count = n + (m / 2);
-        console.log(`O'rdaklar soni: ${count}`);
+        ordaklar = n + (m / 2);
+        console.log(`O'rdaklar soni: ${ordaklar}`);
     } else {
         console.log(-1);
     }
@@ -30,9 +30,7 @@ function omadliChipta() {
         console.log("NO");
     }
 }
-
 omadliChipta(123321)
-
 console.log(randomChipta);
 console.log(birinchiUchlik);
 console.log(ikkinchiUchlik);
